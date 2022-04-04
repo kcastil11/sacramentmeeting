@@ -1,11 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace SacramentPlanner.Models
 {
-    public class Program
+    public class SacramentProgram
     {
-        public int ID { get; set; }
+        [Key]
+        public int Id { get; set; }
         public string OpeningSong { get; set; }
         public string SacramentHymn { get; set; }
         public string ClosingSong { get; set; }
@@ -15,6 +18,6 @@ namespace SacramentPlanner.Models
         public string ClosingPrayer { get; set; }
         public DateTime ProgramDate { get; set; }
 
-        public ICollection<History> History { get; set; }
+       
     }
 }

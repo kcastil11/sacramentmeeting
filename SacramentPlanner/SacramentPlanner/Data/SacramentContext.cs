@@ -1,22 +1,22 @@
 ﻿using SacramentPlanner.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace ContosoUniversity.Data
+namespace SacramentPlanner.Data
 {
-    public class SchoolContext : DbContext
+    public class SacramentContext : DbContext
     {
-        public SchoolContext(DbContextOptions<SchoolContext> options) : base(options)
+        public SacramentContext(DbContextOptions<SacramentContext> options) : base(options)
         {
         }
 
-        public DbSet<Program> Programs { get; set; }
+        public DbSet<SacramentProgram> Programs { get; set; }
         public DbSet<History> Histories { get; set; }
-        //public DbSet<Student> Students { get; set; }
+        public DbSet<Member> Members { get; set; }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<Program>().ToTable("Program");
+            modelBuilder.Entity<SacramentProgram>().ToTable("Program");
             modelBuilder.Entity<History>().ToTable("History");
-            //modelBuilder.Entity<Student>().ToTable("Student");
+            modelBuilder.Entity<Member>().ToTable("Members");
         }
     }
 }
