@@ -7179,23 +7179,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\BotsheloTowing\\.nuget\\packages\\": {},
+    "C:\\Users\\maya\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\DEV\\BYUI\\sacramentmeeting\\SacramentPlanner\\SacramentPlanner\\SacramentPlanner.csproj",
+      "projectUniqueName": "C:\\Users\\maya\\Source\\Repos\\kcastil11\\sacramentmeeting\\SacramentPlanner\\SacramentPlanner\\SacramentPlanner.csproj",
       "projectName": "SacramentPlanner",
-      "projectPath": "C:\\DEV\\BYUI\\sacramentmeeting\\SacramentPlanner\\SacramentPlanner\\SacramentPlanner.csproj",
-      "packagesPath": "C:\\Users\\BotsheloTowing\\.nuget\\packages\\",
-      "outputPath": "C:\\DEV\\BYUI\\sacramentmeeting\\SacramentPlanner\\SacramentPlanner\\obj\\",
+      "projectPath": "C:\\Users\\maya\\Source\\Repos\\kcastil11\\sacramentmeeting\\SacramentPlanner\\SacramentPlanner\\SacramentPlanner.csproj",
+      "packagesPath": "C:\\Users\\maya\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\maya\\Source\\Repos\\kcastil11\\sacramentmeeting\\SacramentPlanner\\SacramentPlanner\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\BotsheloTowing\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\maya\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -7204,7 +7204,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Sources\\Sharon\\utilities\\utilities": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
