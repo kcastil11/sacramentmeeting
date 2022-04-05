@@ -3,45 +3,55 @@ using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace SacramentPlanner.Models
+namespace SacramentPlanner.Models.ViewModel
 {
-    public class SacramentProgram
+    public class ProgramViewModel
     {
-        [Key]
-        public int Id { get; set; }
+        [Display(Name="Opening Hymn")]
         [Required]
-        [Display(Name ="Opening Hymn")]
         public string OpeningSong { get; set; }
 
-        [Required]
+
         [Display(Name = "Sacrament Hymn")]
+        [Required]
         public string SacramentHymn { get; set; }
 
-        [Required]
-        [Display(Name = "Closing Hymn")]
 
+        [Display(Name = "Closing Hymn")]
+        [Required]
         public string ClosingSong { get; set; }
 
-        public int ConductingLeaderId { get; set; }
+
+        [NotMapped]
+        public Member ConductingLeader { get; set; }
+
+        [Display(Name = "Conductor")]
+        [Required]
+        public string ConductingLeaderId { get; set; }
+
 
         [Display(Name = "Intermediate Hymn")]
-
         public string MusicalNumber { get; set; }
 
-        [Required]
+
         [Display(Name = "Opening Prayer")]
+        [Required]
         public string OpeningPrayer { get; set; }
 
 
+        [Display(Name = "Cloosing Prayer")]
         [Required]
-        [Display(Name = "Closing Prayer")]
-
         public string ClosingPrayer { get; set; }
+
 
         [Display(Name = "Date")]
         [DataType(DataType.Date)]
+        [Required]
         public DateTime ProgramDate { get; set; }
 
-       
+
+        [Display(Name = "Speakers")]
+        public List<SpeakerSubject> Speakers { get; set; }
+
     }
 }

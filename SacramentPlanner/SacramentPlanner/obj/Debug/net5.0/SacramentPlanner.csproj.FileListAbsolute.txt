@@ -295,3 +295,8 @@ C:\DEV\BYUI\sacramentmeeting\SacramentPlanner\SacramentPlanner\obj\Debug\net5.0\
 C:\DEV\BYUI\sacramentmeeting\SacramentPlanner\SacramentPlanner\obj\Debug\net5.0\Razor\Views\Members\Details.cshtml.g.cs
 C:\DEV\BYUI\sacramentmeeting\SacramentPlanner\SacramentPlanner\obj\Debug\net5.0\Razor\Views\Members\Edit.cshtml.g.cs
 C:\DEV\BYUI\sacramentmeeting\SacramentPlanner\SacramentPlanner\obj\Debug\net5.0\Razor\Views\Members\Index.cshtml.g.cs
+C:\DEV\BYUI\sacramentmeeting\SacramentPlanner\SacramentPlanner\obj\Debug\net5.0\Razor\Views\SacramentPrograms\Create.cshtml.g.cs
+C:\DEV\BYUI\sacramentmeeting\SacramentPlanner\SacramentPlanner\obj\Debug\net5.0\Razor\Views\SacramentPrograms\Delete.cshtml.g.cs
+C:\DEV\BYUI\sacramentmeeting\SacramentPlanner\SacramentPlanner\obj\Debug\net5.0\Razor\Views\SacramentPrograms\Details.cshtml.g.cs
+C:\DEV\BYUI\sacramentmeeting\SacramentPlanner\SacramentPlanner\obj\Debug\net5.0\Razor\Views\SacramentPrograms\Edit.cshtml.g.cs
+C:\DEV\BYUI\sacramentmeeting\SacramentPlanner\SacramentPlanner\obj\Debug\net5.0\Razor\Views\SacramentPrograms\Index.cshtml.g.cs
